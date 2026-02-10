@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Info-kort</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1 id="pageTitle">Min infosida</h1>
+
+  <div class="card">
+    <img class="hero" src="img/bild1.jpg" alt="Bild" />
+
+    <h2 id="cardTitle">Välkommen!</h2>
+    <p id="mainText">Här är en kort text på sidan.</p>
+
+    <!-- Dold text som ska visas med JS -->
+    <p id="changedText" class="hidden">Här kommer extra info!</p>
+  </div>
+
+  <div class="buttons">
+    <button id="changeContentButton">Visa info</button>
+    <button id="changeTextButton">Byt text</button>
+    <button id="resetButton">Start</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
